@@ -1,0 +1,35 @@
+.beats{
+    grid-area: beats;
+}
+.amazon{
+    grid-area: amazon;
+}
+.apple{
+    grid-area: apple;
+}
+.addias{
+    grid-area: addias;
+}
+
+.beats2{
+    grid-area: beats2;
+}
+.amazon2{
+    grid-area: amazon2;
+}
+.apple2{
+    grid-area: apple2;
+}
+.addias2{
+    grid-area: addias2;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+     "beats amazon apple addias"
+     "addias2 apple2 amazon2 beats2";
+     justify-content:  space-evenly;
+     
+}
