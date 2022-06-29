@@ -1,14 +1,4 @@
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-     "beats amazon apple addias"
-     "addias2 apple2 amazon2 beats2";
-     justify-content:  space-evenly;
-     
-}
 .container1{
     display: flex;
     width: 80%;
